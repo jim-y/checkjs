@@ -1,0 +1,24 @@
+{
+  "name": "typer",
+  "version": "0.0.0",
+  "description": "Easy JavaScript type checking with Typer",
+  "main": "lib/typer.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jim-y/typer.git"
+  },
+  "keywords": [
+    "javascript",
+    "type",
+    "typechecking"
+  ],
+  "author": "Attila Kling <attila.kling@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jim-y/typer/issues"
+  },
+  "homepage": "https://github.com/jim-y/typer"
+}
