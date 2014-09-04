@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Typer test</title>
+  <script src='../lib/typer.js'></script>
+</head>
+<body>
+  <div id='something'>Typer</div>
+  <script>
+    var mobType = typer;
+    
+    var isNum = mobType('asd').not.a.string();
+    
+    console.log(isNum);
+  </script>
+</body>
+</html>
