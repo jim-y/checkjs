@@ -1,16 +1,15 @@
 <html>
 <head>
-  <title>Typer test</title>
-  <script src='../lib/typer.js'></script>
+  <title>check.js test</title>
+  <script src='../lib/check.js'></script>
 </head>
 <body>
-  <div id='something'>Typer</div>
+  <div id='something'>check.js</div>
   <script>
-    var mobType = typer;
+    var isNum = check(1).is.an.number();
     
-    var isNum = mobType('asd').not.a.string();
-    
-    console.log(isNum);
+    console.log('1', isNum);
+    console.log(check());
   </script>
 </body>
 </html>
