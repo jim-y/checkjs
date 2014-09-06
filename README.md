@@ -53,6 +53,8 @@ In the API there are class properties which are present only to read your tests 
 * which
 * with
 
+Example
+
     check(1).if.it.is.a.number()
 
 Although you can write expressions like these, i **do not recommend** this, because this much (dots) can be easily confusing.
@@ -68,6 +70,8 @@ There are currently 3 negation elements, which will negate the result.
 * not
 * notAll
 * notToBe
+
+Example
 
     check('hello', 'world', '!').notAll.string()
 
