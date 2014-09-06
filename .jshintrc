@@ -115,8 +115,6 @@
         "describe",
         "expect",
         "it"
-        //"anotherCoolGlobal",
-        //"iLoveDouglas"
     ],
     "indent"        : 2         // Specify indentation spacing
 }
