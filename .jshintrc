@@ -36,7 +36,7 @@
     "noarg"         : true,     // Prohibit use of `arguments.caller` and `arguments.callee`.
     "noempty"       : true,     // Prohibit use of empty blocks.
     "nonew"         : true,     // Prohibit use of constructors for side-effects.
-    "plusplus"      : true,     // Prohibit use of `++` & `--`.
+    "plusplus"      : false,     // Prohibit use of `++` & `--`.
     "regexp"        : true,     // Prohibit `.` and `[^...]` in regular expressions.
     "undef"         : true,     // Require all non-global variables be declared before they are used.
     "strict"        : true,     // Require `use strict` pragma in every file.
@@ -86,7 +86,7 @@
     "dojo"          : false,    // Enable globals exposed by Dojo Toolkit.
     "jquery"        : false,    // Enable globals exposed by jQuery JavaScript library.
     "mootools"      : false,    // Enable globals exposed by MooTools JavaScript framework.
-    "node"          : false,    // Enable globals available when code is running inside of the NodeJS runtime environment.
+    "node"          : true,    // Enable globals available when code is running inside of the NodeJS runtime environment.
     "nonstandard"   : false,    // Define non-standard but widely adopted globals such as escape and unescape.
     "prototypejs"   : false,    // Enable globals exposed by Prototype JavaScript framework.
     "rhino"         : false,    // Enable globals available when your code is running inside of the Rhino runtime environment.
@@ -98,7 +98,7 @@
     // not be improved in any way and might be removed at any point.
     
     "nomen"         : false,    // Prohibit use of initial or trailing underbars in names.
-    "onevar"        : false,    // Allow only one `var` statement per function.
+    "onevar"        : true,    // Allow only one `var` statement per function.
     "passfail"      : false,    // Stop on first error.
     "white"         : false,    // Check against strict whitespace and indentation rules.
     
@@ -111,9 +111,12 @@
 
     "maxerr"        : 100,      // Maximum errors before stopping.
     "predef"        : [         // Extra globals.
-        //"exampleVar",
+        "module",
+        "describe",
+        "expect",
+        "it"
         //"anotherCoolGlobal",
         //"iLoveDouglas"
     ],
-    "indent"        : 4         // Specify indentation spacing
+    "indent"        : 2         // Specify indentation spacing
 }
