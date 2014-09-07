@@ -17,6 +17,10 @@ indent_size = 4
 [*.js]
 indent_style = tab
 
+[test/spec/**.js]
+indent_style = space
+indent_size = 2
+
 # Indentation override for all JS under lib directory
 [lib/**.js]
 indent_style = space
